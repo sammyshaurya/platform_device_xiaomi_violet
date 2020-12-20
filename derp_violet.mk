@@ -25,3 +25,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="violet"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Maintainer string
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.derp.maintainer=Shubham Das (dasshubham762)
